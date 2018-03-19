@@ -1,0 +1,46 @@
+page-lessondata {
+
+  .content{
+    background: color($colors, light);
+  }
+
+  .content ion-item{
+    background: rgb(122, 63, 35);
+
+  }
+  .content ion-item button{
+    color: rgb(228, 199, 39);
+
+  }
+
+  .content ion-item h4{
+    color: rgb(228, 199, 39);
+    text-align: center;
+    background-color: rgb(124, 19, 11);
+    border-color: rgb(228, 199, 39);
+    border: 1px;
+    border-style: solid;
+    height: 40px;
+    padding: 10px;
+
+    border-radius: 5px;
+
+  }
+
+    #card-stack {
+        width: 90%;
+        height: 200px;
+        background: #680303;
+        border: 10px solid #e01414;
+        margin: 100px auto 0;
+        position: relative;
+      }
+     
+      #card-stack ion-card {
+        border-radius: 5px;
+        position: absolute;
+        text-align: center;
+        top: 3%;
+        height: 90%;
+      }
+    }

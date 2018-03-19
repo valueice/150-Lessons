@@ -1,0 +1,67 @@
+page-lessons {
+    
+        .content{
+            background: color($colors, soutechbg);
+    
+          }
+    
+          .txtmarg{
+            margin-left: 65px;
+            margin-right: 15px;
+            text-align: justify;
+    
+          }
+          .num {
+            
+            height: 40px !important;
+            width: 40px !important;
+            margin: 10px !important;
+            margin-left: 5px;
+            text-anchor: middle;
+            float: left;
+            display: block !important;
+            text-align: center;
+            font-size: 20px;
+            font-style: bold;
+            align-content: center;
+            align-items: center;
+            border: 0;
+            padding: 5px;
+            background-color: #f7efed;
+            border-radius: 30px;
+          }
+    
+          ion-row {
+            height: 100%;
+          
+          
+            ion-card{
+              background-color: color($colors, light) !important;
+              // height: 160px;
+              // display: block;
+
+          
+          
+          
+              img {
+          
+              height: 5vh !important;
+              width: auto !important;
+              margin: auto !important;
+              float: left;
+              // display: block !important;
+              // align-items: center;
+              border: 0;
+              padding: 0;
+              background-color: #f7efed;
+              border-radius: 30px;
+              }
+          
+            }
+          
+          
+          }
+          
+    
+    }
+    

@@ -1,0 +1,41 @@
+page-lessondetail {
+
+    .content{
+      background: color($colors, soutechbg);
+      }
+
+    
+    #card-stack {
+        
+        display: block;
+        width: 90%;
+        height: 90%;
+        background: #f9fcfb;
+        border: 10px solid #910b0b;
+        margin: 100px auto 0;
+        position: relative;
+        text-align: center;
+      }
+     
+      #card-stack ion-card {
+        border-radius: 5px;
+        position: absolute;
+
+        top: 3%;
+        height: 90%;
+      }
+    
+
+      #card-stack h2{
+          text-align: center;
+          font-size: 22px;
+          font-weight: bolder; 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+
+      }
+    
+
+    }

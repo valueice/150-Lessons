@@ -1,0 +1,40 @@
+<!--
+  Generated template for the LessondataPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>150 Lessons</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>  
+ 
+    <ion-item *ngFor="let lesson of lessons; index as i;" slice:0:10>
+        <!-- <div *ngIf="i<1"> -->
+<!-- <P>{{lesson.ID}} | {{lesson.Lesson}} | {{lesson.Data}}</P> -->
+<h4 (click)="loadLesson(lesson)" tapable>{{ lesson.Lesson }}</h4>
+<!-- <button ion-button (click)="loadLesson(lesson)" full color="lbutton">{{ lesson.Lesson }}</button> -->
+<!-- </div> -->
+      
+    </ion-item>
+
+
+
+
+
+
+<!--   <h2>Post From Here </h2>
+<div *ngFor="let lesson of data; let i=index">
+ 
+<P>{{data}} |  <i>{{lessons}}</i> | <b> {{data}} </b>|  </P>
+
+</div>
+ -->
+
+</ion-content>
